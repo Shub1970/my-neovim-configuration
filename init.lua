@@ -305,6 +305,14 @@ require('lazy').setup({
   --     require('supermaven-nvim').setup {}
   --   end,
   -- },
+  -- For `plugins.lua` users.
+  {
+    'OXY2DEV/markview.nvim',
+    lazy = false,
+
+    -- Completion for `blink.cmp`
+    -- dependencies = { "saghen/blink.cmp" },
+  },
   { -- Useful plugin to show you pending keybinds.
     'folke/which-key.nvim',
     event = 'VimEnter', -- Sets the loading event to 'VimEnter'
